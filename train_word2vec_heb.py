@@ -79,7 +79,7 @@ else:
 print('playground')
 # now some playing around
 pd.DataFrame(word2vec.wv.most_similar('משחקים', topn=5), columns=['word', 'score'])
-# returning למשחקים, שחקנים, משחרי, טורנירים, משחק
+# returning למשחקים, שחקנים, משחקי, טורנירים, משחק
 
 pd.DataFrame(word2vec.wv.most_similar('במכונית', topn=5), columns=['word', 'score'])
 # returning ברכב, הנהג, בנסיעה, האוטובוס, באקדח
