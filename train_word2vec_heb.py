@@ -38,7 +38,7 @@ logging.basicConfig(format='%(asctime)s: %(levelname)s: %(message)s')
 logging.root.setLevel(level=logging.INFO)
 
 
-model_dump_folder = fr'{os.path.expanduser("~")}\Downloads\a\gensim_heb_wiki'
+model_dump_folder = fr'{os.path.expanduser("~")}\Downloads\gensim_heb_wiki'
 model_dump_wiki_corpus = f'{model_dump_folder}/wiki.corpus.model'
 model_dump_word2vec = f'{model_dump_folder}/wiki.word2vec.model'
 # download this bz2 file from https://dumps.wikimedia.org/hewiki/latest/hewiki-latest-pages-articles.xml.bz2
